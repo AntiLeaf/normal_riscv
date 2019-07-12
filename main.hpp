@@ -239,7 +239,7 @@ void Node::work_ID() { // 指令译码/寄存器提取
 	id_ex.ir = command;
 	id_ex.npc = if_id.npc;
 	
-	check(id_ex.command_type);
+	// check(id_ex.command_type);
 }
 
 void Node::work_EX() { // 执行/有效地址
